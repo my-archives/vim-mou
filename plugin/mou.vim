@@ -2,7 +2,7 @@
 " File:     mou.vim
 " Author:   Kissdry Cai <cfddream@gmail.com>
 " URL:      https://github.com/cfddream/vim-mou
-" Version:  0.1.0
+" Version:  0.0.1
 
 if &cp || (exists("g:mou_loaded") && g:mou_loaded)
   finish
