@@ -12,8 +12,12 @@ let g:mou_loaded = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
+if !exists("g:mou_dir")
+  let g:mou_dir = "Mou.app"
+endif
+
 function s:OpenMou()
-  silent exe "!open -a Mou.app '%:p'"
+  silent exe "!open -a " . g:mou_dir . " '%:p'"
   redraw!
 endfunction
 
