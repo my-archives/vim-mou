@@ -6,3 +6,4 @@ vim-mou
   * 可以设置 let g:mou\_dir = "$HOME/Apps/Mou.app"
   * 打开文件 － `:MouOpen`
   * 关闭文件 － `:MouQuit`
+  * http://www.vim.org/scripts/script.php?script_id=4052
